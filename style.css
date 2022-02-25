@@ -1,0 +1,239 @@
+/*
+Theme Name: TEMA FAUZAN
+Theme URI:  http://wordpress.org/
+Author: Fauzan Alghifari
+Author URI: http://wordpress.org/
+Description: tema untuk kalian
+*/
+body {
+    margin: 50px auto;
+    width: 80%;
+}
+
+marquee {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1 a {
+    /*background-color: black;*/
+    /*padding: 5px;*/
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+header nav li {
+    font-size: 22px;
+    padding: 3px;
+}
+
+header {
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/*header nav {*/
+/*    float: left;*/
+/*    width: 70%;*/
+/*}*/
+
+.sub_judul{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main, aside {
+    float: left;
+    margin-top: 30px;
+}
+
+.main-split {
+    width: 75%;
+    margin-right: 5%;
+}
+
+aside {
+    width: 20%;
+}
+
+.sub_judul {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#search_form {
+    float: right;
+    margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#main-page {
+    text-align: left;
+}
+
+.gallery {
+    background-color: #ffa979;
+    padding: 10px;
+}
+
+#custom_post h1 {
+    font-size: 30px;
+}
+
+#custom_post a {
+    display: inline-block;
+    width: 50%;
+    margin: 2%;
+    background-color: #ff0752;
+    padding: 5px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.body-image {
+    width: 30px;
+    height: 20px;
+    border: 4px solid #575D63;
+    padding: 10px;
+    margin: 20px;
+}
+
+.page-numbers.current > span {;
+    background-color: gray;
+    color: white;
+}
+
+/*CSS FOOTER*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+footer {
+    background: black;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+
+/*footer a{*/
+/*    color: white;*/
+/*}*/
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+     color: cyan;
+}
+
+.footer-bottom {
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity:  .4;
+    font-weight: 200;
+}
